@@ -1,4 +1,4 @@
-package module1.lesson1;
+package module1.lesson1_2;
 
 public class Example7 {
     public static void main(String[] args) {
