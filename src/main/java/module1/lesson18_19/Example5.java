@@ -1,7 +1,5 @@
-package module1.lesson18;
+package module1.lesson18_19;
 
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
