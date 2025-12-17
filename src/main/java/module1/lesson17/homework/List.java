@@ -9,5 +9,7 @@ public interface List<E>  {
 
     E getByIndex(int index);
 
+    E removeByIndex(int index);
+
     void clear();
 }

@@ -1,6 +1,6 @@
 package module1.lesson17.homework;
 
-public class MyLinkedList<T> implements List<T> {
+public class MyHashMap<K, V> implements Map<K, V> {
     @Override
     public int size() {
         // put your implementation here
@@ -8,34 +8,23 @@ public class MyLinkedList<T> implements List<T> {
     }
 
     @Override
-    public void add(T element) {
-        // put your implementation here
-
-    }
-
-    @Override
-    public void addByIndex(T element, int index) {
-        // put your implementation here
-
-    }
-
-    @Override
-    public T getByIndex(int index) {
+    public V put(K key, V value) {
         // put your implementation here
 
         return null;
     }
 
     @Override
-    public T removeByIndex(int index) {
+    public V remove(K key) {
         // put your implementation here
+
         return null;
     }
 
     @Override
-    public void clear() {
+    public boolean containsKey(K key) {
         // put your implementation here
 
+        return false;
     }
 }
-
