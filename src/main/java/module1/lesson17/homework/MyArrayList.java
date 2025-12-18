@@ -1,16 +1,21 @@
 package module1.lesson17.homework;
 
 public class MyArrayList<T> implements List<T> {
+
+    private int size = 0;
+
+    private Object[] items;
     @Override
     public int size() {
         // put your implementation here
-        return 0;
+        return size;
     }
 
     @Override
     public void add(T element) {
         // put your implementation here
 
+        items[size++]=element;
     }
 
     @Override
