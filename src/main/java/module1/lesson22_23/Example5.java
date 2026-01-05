@@ -1,7 +1,6 @@
-package module1.lesson22;
+package module1.lesson22_23;
 
 import java.io.Closeable;
-import java.io.IOException;
 
 public class Example5 {
     public static void main(String[] args) {

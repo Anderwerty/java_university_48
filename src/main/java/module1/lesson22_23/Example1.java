@@ -1,4 +1,4 @@
-package module1.lesson22;
+package module1.lesson22_23;
 
 public class Example1 {
     public static void main(String[] args) throws MyException2 {

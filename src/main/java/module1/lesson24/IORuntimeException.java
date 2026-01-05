@@ -1,4 +1,4 @@
-package module1.lesson23;
+package module1.lesson24;
 
 public class IORuntimeException extends RuntimeException{
 

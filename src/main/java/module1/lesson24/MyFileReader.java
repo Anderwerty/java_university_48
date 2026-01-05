@@ -1,7 +1,6 @@
-package module1.lesson23;
+package module1.lesson24;
 
 import java.io.*;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
