@@ -1,0 +1,2 @@
+1) create big txt file. Read this file by batch
+2) use jpg file. Read from one place and write to another.
