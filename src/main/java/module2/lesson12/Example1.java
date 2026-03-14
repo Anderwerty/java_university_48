@@ -4,7 +4,10 @@ import java.util.List;
 public class Example1 {
     public static void main(String[] args) {
         Container container = new Container();
-        int iterationNumber = 10;
+
+
+
+        int iterationNumber = 1000000;
         Producer producer1 = new Producer(container, iterationNumber);
         Producer producer2 = new Producer(container, iterationNumber);
         Producer producer3 = new Producer(container, iterationNumber);
@@ -17,7 +20,12 @@ public class Example1 {
         List<Thread> threads = List.of(producer1, producer2, producer3, producer4, consumer1, consumer2, consumer3, consumer4);
 
         threads.forEach(Thread::start);
+        synchronized (container){
+            boolean b = true;
+            while (b){
 
+            }
+        }
         threads.forEach(t -> {
             try {
                 t.join();
@@ -25,6 +33,7 @@ public class Example1 {
                 throw new RuntimeException(e);
             }
         });
+
 
         System.out.println("Main end");
     }
