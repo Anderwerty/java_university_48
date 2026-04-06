@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Example1 {
     public static void main(String[] args) {
         Example1 example1 = new Example1();
-        //module2.lesson9.Example1@6acbcfc0
+        //module2.lesson9.Example2@6acbcfc0
         System.out.println(example1.toString());
         Client alex = new Client("Alex");
         System.out.println(alex);
